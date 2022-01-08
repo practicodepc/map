@@ -6,30 +6,10 @@ let personas = [
 
 let personasModificado = personas.map(function(item, index, array) {
     let objetoNuevo = {};
-    objetoNuevo["nombreCompleto"] = item.nombre + " " + item.apellido; //`${item.nombre} ${item.apellido}`
+    objetoNuevo["nombreCompleto"] = item.nombre + " " + item.apellido; 
     return objetoNuevo;
 })
 
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
-console.log(personasModificado);
 
 
 
