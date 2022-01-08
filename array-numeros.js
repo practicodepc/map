@@ -1,3 +1,4 @@
+
 let numeros = [1, 2, 3];
 
 let resultado = numeros.map(function(item, index, array){
