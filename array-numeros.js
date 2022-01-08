@@ -1,7 +1,9 @@
 
 let numeros = [1, 2, 3];
 
-let resultado = numeros.map(function(){});
+let resultado = numeros.map(function(item){
+    return item * 2;
+});
 
 console.log(resultado);
 
